@@ -31,6 +31,7 @@ def home(request):
 ```
 
 urls.py
+```
 from django.contrib import admin
 from django.urls import path
 from app import views
@@ -40,7 +41,10 @@ urlpatterns = [
     path('',views.home)
 ]
 
+```
+
 new.html
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -55,7 +59,9 @@ new.html
 </html>
 ```
 
-
 # OUTPUT:
+![alt text](<Screenshot 2026-10-17 140209.png>)
+![alt text](<Screenshot 2026-10-17 140209.png>)
+
 # RESULT:
 The program for implementing simple webserver is executed successfully.
